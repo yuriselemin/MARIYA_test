@@ -22,3 +22,5 @@ finally:
     print('Закрыл файл!!!')
 
 print(result)
+
+
