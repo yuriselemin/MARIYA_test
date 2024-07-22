@@ -1,6 +1,6 @@
 
 
-file = open('1.txt')
+file = open('1.txt', 'r', encoding='utf-8')
 result = []
 
 try:
@@ -8,7 +8,7 @@ try:
         try:
             result.append(int(i))
         except ValueError as ve:  # встретил строку
-            print('Это не число!!!! Продолжаем!!!!')
+            print(f'Это не число: {ve}!!!! Продолжаем!!!!')
             continue
 
 except Exception:
