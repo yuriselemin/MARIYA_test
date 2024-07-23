@@ -8,7 +8,7 @@ try:
         try:
             result.append(int(i))
         except ValueError as ve:  # встретил строку
-            # print(f'Это не число: {ve}!!!! Продолжаем!!!!')
+            print(f'Это не число: {ve}!!!! Продолжаем!!!!')
             continue
 
 except Exception:
